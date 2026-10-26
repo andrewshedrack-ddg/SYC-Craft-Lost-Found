@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Report a Found Item | SYC Craft Lost &amp; Found</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+<h1>SYC Craft Lost &amp; Found</h1>
+<p>Campus Lost &amp; Found Board</p>
+<nav><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="report-lost.html">Report Lost</a></li><li><a href="report-found.html">Report Found</a></li><li><a href="browse.html">Browse Items</a></li><li><a href="claiming.html">How Claiming Works</a></li><li><a href="contact.html">Contact</a></li></ul></nav>
+</header>
+<main>
+<h2>Report a found item</h2>
+<p>Thank you for helping. Describe the item without giving away a private detail that only the owner would know, such as a full card number or a password. Keep the item safe until it is claimed.</p>
+<form action="browse.html" method="get">
+<fieldset><legend>The item you found</legend>
+<label for="found-name">Your name</label><input id="found-name" name="name" type="text" required>
+<label for="found-item">Item name</label><input id="found-item" name="item" type="text" required>
+<label for="found-category">Category</label><select id="found-category" name="category"><option>Wallet or card</option><option>Phone or charger</option><option>Book or notes</option><option>Clothing</option><option>Other</option></select>
+<label for="found-desc">Public description</label><textarea id="found-desc" name="description" rows="4" required></textarea>
+</fieldset>
+<fieldset><legend>Where and when</legend>
+<label for="found-place">Where you found it</label><input id="found-place" name="place" type="text" required>
+<label for="found-date">Date found</label><input id="found-date" name="date" type="date" required>
+<label for="found-keep">Where is the item now?</label><input id="found-keep" name="kept" type="text" required>
+</fieldset>
+<button type="submit">Submit found report</button>
+</form>
+</main>
+<aside>
+<h2>Need help fast?</h2>
+<p>Visit the student centre desk, Monday to Friday, 9am to 4pm, with your student ID and a clear description of the item.</p>
+<p>Board rule for this class project: bring proof of ownership when you claim an item.</p>
+</aside>
+<footer>
+<p>SYC Craft team project, DBT 1305 Web Application Development, due 30 October 2026. Team: Andrew and Anita.</p>
+</footer>
+</body>
+</html>
